@@ -1,0 +1,31 @@
+1. To map real world scenarios we started using objects in code -> OOPS.
+
+2. procedural -> functional (less redundancy, more reusability) -> OOP
+
+3. Class is a blueprint for an obj whereas obj is an instance of a class. 
+-class name always to be started with capital letter eg. class Student
+
+4. All calsses have constructor which is invoked when class is called.
+-constructors are defined by __init__() method.
+-if we dont create an constructor then python creates one for us.
+-constructor method takes 'self' as a parameter -> mandatory
+-'self' points to the object itself, Hence the name self.
+-default and parametaarized constructor 
+-you can have multiple constructors. But, the constructor which mathes the given parameters is only executed or invoked.
+
+5. Attributes : 
+-class attr are same for all instances of classes.
+-attr are stored only once in memory and hence occupy less space.
+-obj attr > class attr (Precedence)
+
+6. Methods:
+-method must always have 'self' as an argument.
+
+7. Static methods:
+-'@staticmethod' decorator is used.
+-works at class level where as other methods work at obj level.
+-no need to give self as an arg.
+
+8. Abstraction : Hiding the implementation details
+
+9. Encapsulation : A capsule of (data + function) - Wrapping data into a single obj.
